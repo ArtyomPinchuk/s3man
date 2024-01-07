@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/sensors_raw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/map_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Датчик абсолютного давления"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/voltage_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Напряжение бортовой сети"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/temperature_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Датчик температуры ОЖ"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/knock_value_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Датчик детонации"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/throttle_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Датчик положения дроссельной заслонки"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi1_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I1"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi2_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I2"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi3_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I3"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi4_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I4"
+            app:units="В"
+            app:value_precision="four" />
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi5_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I5"
+            app:units="В"
+            app:value_precision="four" />
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi6_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I6"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi7_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I7"
+            app:units="В"
+            app:value_precision="four" />
+
+        <org.secu3.android.ui.parameters.views.FloatParamView
+            android:id="@+id/addi8_raw"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:float_value="0"
+            app:title="Вход ADD_I8"
+            app:units="В"
+            app:value_precision="four" />
+
+    </LinearLayout>
+
+</ScrollView>

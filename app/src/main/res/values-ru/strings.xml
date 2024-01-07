@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Secu3Droid</string>
+    <string name="title_activity_param">Параметры</string>
+    <string name="menu_param">Параметры</string>
+
+    <string name="pref_bluetooth_device_title">Выбор устройства Bluetooth</string>
+    <string name="pref_bluetooth_device_summary">Текущее устройство: %s</string>
+    <string name="pref_speed_pulse_title">Импульсов датчика скорости на 1 км</string>
+    <string name="pref_connection_retries_title">Количество попыток повтора соединения</string>
+    <string name="pref_connection_retries_summary">Число попыток до выхода: %s</string>
+    <string name="pref_about_title">О программе</string>
+    <string name="pref_about_summary"/>
+
+    <string name="pref_keep_screen_title">Не выключать экран</string>
+    <string name="pref_keep_screen_summary">Экран остается включенным, пока отображаются данные сенсоров</string>
+
+    <string name="msg_bluetooth_disabled">Bluetooth отключен</string>
+    <string name="status_offline">Отключено</string>
+    <string name="status_online">Подключено</string>
+    <string name="title_activity_errors">Ошибки</string>
+    <string name="menu_dashboard">Приборная панель</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="menu_errors">Ошибки</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_raw_sensors">Сырые значения</string>
+    <string name="menu_diagnostics">Диагностика</string>
+    <string name="menu_diagnostics_warning_title">ВНИМАНИЕ! Отключите катушки зажигания перед входом в диагностический режим. Перед тестиров. вых. BL, DE убедитесь что перемычки сняты!\nВНИМАНИЕ! Значения входов показываются на выводах МК, а не на внешнем разъеме (есть отличия).</string>
+    <string name="about_title">О программе</string>
+    <string name="about_version">Secu3Droid версия</string>
+    <string name="about_copyright_1">Copyright © 2020 Виталий Кошарский</string>
+    <string name="about_copyright_2">Copyright © 2023 Secu3Droid Project</string>
+    <string name="about_app_desc">Secu3Droid это приложение для настройки системы управления двигателем Secu-3. Secu-3 это бесплатная система управления двигателем с открытыми исходными кодами <a href="http://secu-3.org"><b>http://secu-3.org</b></a>"</string>
+    <string name="about_license">Это программное обеспечение с открытым исходным кодом распространяется бесплатно в соответствиями с условиями <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html"><b>GNU General Public License</b></a>.</string>
+    <string name="about_sources">Исходный код доступен из Git-репозитория на вебсайте проекта https://github.com/kosharskiy/secu3droid</string>
+
+    <string-array name="diagnostics_fragments_title">
+        <item>Входы</item>
+        <item>Выходы</item>
+        <item>Графики</item>
+    </string-array>
+
+    <string-array name="sensor_monitor_title">
+        <item>Speed</item>
+        <item>Vehicle speed</item>
+        <item>Voltage</item>
+        <item>Coolant temperature</item>
+        <item>Absolute pressure</item>
+        <item>TPS dot</item>
+        <item>Throttle gate</item>
+        <item>Input 1</item>
+        <item>Input 2</item>
+        <item>Injector duty</item>
+        <item>Injection PW</item>
+        <item>Air flow</item>
+        <item>Advance angle</item>
+        <item>Diff. Pressure</item>
+        <item>Knock signal</item>
+        <item>Knock retard</item>
+        <item>Intake air temperature</item>
+        <item>Map 2</item>
+        <item>EGO correction</item>
+        <item>IAT 2</item>
+        <item>Fuel consumption</item>
+        <item>WBO AFR</item>
+        <item>Synthetic load</item>
+        <item>IAC valve</item>
+        <item>Gas disperser</item>
+        <item>Begin inj. phase</item>
+        <item>GRTS</item>
+        <item>End inj. phase</item>
+        <item>Fuel consumption (Hz)</item>
+        <item>Oil pressure</item>
+        <item>MAF</item>
+        <item>Exhaust gas temperature</item>
+        <item>MAP dot</item>
+        <item>Fuel level</item>
+        <item>Fuel temperature</item>
+        <item>Fan`s duty</item>
+    </string-array>
+
+    <string-array name="sensor_monitor_status">
+        <item>Gas valve</item>
+        <item>Throttle</item>
+        <item>Fl fuel</item>
+        <item>Power valve</item>
+        <item>Starter blocking</item>
+        <item>AE</item>
+        <item>Cooling fan</item>
+        <item>Check Engine</item>
+        <item>Flood clear mode</item>
+        <item>System locked</item>
+        <item>Rev. lim. fuel cut</item>
+        <item>ING_I_input</item>
+        <item>COND_I input</item>
+        <item>EPAS_I input</item>
+        <item>Afterstart enr.</item>
+        <item>IAC closed loop</item>
+        <item>Univ. Out 1</item>
+        <item>Univ. Out 2</item>
+        <item>Univ. Out 3</item>
+        <item>Univ. Out 4</item>
+        <item>Univ. Out 5</item>
+        <item>Univ. Out 6</item>
+    </string-array>
+
+    <string-array name="sensor_raw_title">
+        <item>MAP sensor</item>
+        <item>Voltage</item>
+        <item>Coolant sensor</item>
+        <item>Knock signal level</item>
+        <item>Throttle position sensor</item>
+        <item>ADD_I1 Input</item>
+        <item>ADD_I2 Input</item>
+        <item>ADD_I3 Input</item>
+        <item>ADD_I4 Input</item>
+        <item>ADD_I5 Input</item>
+        <item>ADD_I6 Input</item>
+        <item>ADD_I7 Input</item>
+        <item>ADD_I8 Input</item>
+    </string-array>
+
+    <string-array name="inj_timing_specifies">
+        <item>Начало</item>
+        <item>Середина</item>
+        <item>Конец</item>
+    </string-array>
+
+    <string-array name="lambda_sensors_types">
+        <item>УДК</item>
+        <item>ШДК</item>
+    </string-array>
+
+    <string-array name="errors_ecu_errors_names">
+        <item>Сбои в работе ДПКВ - ошибки синхронизации</item>
+        <item>Параметры в EEPROM повреждены (CRC)</item>
+        <item>Код прошивки поврежден (CRC)</item>
+        <item>Процессор детонации не отвечает</item>
+        <item>Обнаруживалась детонация</item>
+        <item>Поломка или неправильная работа ДАД</item>
+        <item>Поломка или неправильная работа ДТОЖ</item>
+        <item>Ненормальное напряжение бортовой сети</item>
+        <item>Управление временем накопления энергии КЗ</item>
+        <item>Поломка или неправильная работа ДФ</item>
+        <item>Поломка или неправильные показания ДПДЗ</item>
+        <item>Неисправность датчика на входе ADD_I1</item>
+        <item>Неисправность датчика на входе ADD_I2</item>
+        <item>Неисправность датчика на входе ADD_I3</item>
+        <item>Неисправность датчика на входе ADD_I4</item>
+        <item>Старт прошивки (перезапуск процессора)</item>
+        <item>Неисправность датчика на входе ADD_I5</item>
+        <item>Неисправность датчика на входе ADD_I6</item>
+        <item>Неисправность датчика на входе ADD_I7</item>
+        <item>Очень низкое давление масла</item>
+        <item>Данные таблиц в EEPROM повреждены</item>
+        <item>Повышение предела производительности форсунки</item>
+        <item>Данные таблицы обучения в EEPROM повреждены</item>
+    </string-array>
+
+    <string-array name="fuel_inject_config_types">
+        <item>Моновпрыск</item>
+        <item>Одновременный</item>
+        <item>2 банка попер.</item>
+        <item>Попарно-паралельный</item>
+        <item>ПП разд.кан.</item>
+        <item>Распределенный</item>
+    </string-array>
+
+    <string-array name="logical_functions">
+        <item>ИЛИ</item>
+        <item>И</item>
+        <item>ИСКЛ. ИЛИ</item>
+        <item>2-е условие</item>
+        <item>Отсутствует</item>
+    </string-array>
+
+    <string-array name="uniout_spinner_conditions1" >
+        <item>ДТОЖ (°C)</item>
+        <item>Обороты (мин-1)</item>
+        <item>ДАД (кПа)</item>
+        <item>Напряжение (В)</item>
+        <item>Концевик карбюратора (логич.)</item>
+        <item>Скорость (км/ч)</item>
+        <item>Расход воздуха (0..16)</item>
+        <item>Таймер по включению зажигания (сек)</item>
+        <item>Таймер по включению двигателя (сек)</item>
+        <item>Положение ВЗ/РХХ (\%%)</item>
+        <item>УОЗ (°КВ)</item>
+        <item>Детонация (В)</item>
+        <item>ДПДЗ (\%%)</item>
+        <item>ДТВ (°C)</item>
+        <item>Аналоговый вход 1(В)</item>
+        <item>Аналоговый вход 2(В)</item>
+        <item>Газовый клапан (логич)</item>
+        <item>Длительность впрыска (мс)</item>
+        <item>Состояние CE</item>
+        <item>Таймер по включению/выключению 1 условия (сек)</item>
+        <item>Аналоговый вход 3(В)</item>
+        <item>Аналоговый вход 4(В)</item>
+        <item>Аналоговый вход 5(В)</item>
+        <item>Аналоговый вход 6(В)</item>
+        <item>Аналоговый вход 7(В)</item>
+        <item>Аналоговый вход 8(В)</item>
+    </string-array>
+
+    <string-array name="uniout_spinner_conditions2" >
+        <item>ДТОЖ (°C)</item>
+        <item>Обороты (мин-1)</item>
+        <item>ДАД (кПа)</item>
+        <item>Напряжение (В)</item>
+        <item>Концевик карбюратора (логич.)</item>
+        <item>Скорость (км/ч)</item>
+        <item>Расход воздуха (0..16)</item>
+        <item>Таймер (секунд)</item>
+        <item>Таймер по включению зажигания (сек)</item>
+        <item>Таймер по включению двигателя (сек)</item>
+        <item>Положение ВЗ/РХХ (\%%)</item>
+        <item>УОЗ (°КВ)</item>
+        <item>Детонация (В)</item>
+        <item>ДПДЗ (\%%)</item>
+        <item>ДТВ (°C)</item>
+        <item>Аналоговый вход 1(В)</item>
+        <item>Аналоговый вход 2(В)</item>
+        <item>Газовый клапан (логич)</item>
+        <item>Длительность впрыска (мс)</item>
+        <item>Состояние CE</item>
+        <item>Таймер по включению/выключению 1 условия (сек)</item>
+        <item>Аналоговый вход 3(В)</item>
+        <item>Аналоговый вход 4(В)</item>
+        <item>Looper tmr. 1 cond. (sec.) не переведено</item>
+        <item>Аналоговый вход 5(В)</item>
+        <item>Аналоговый вход 6(В)</item>
+        <item>Аналоговый вход 7(В)</item>
+        <item>Аналоговый вход 8(В)</item>
+    </string-array>
+
+    <string name="title_activity_diagnostics">Диагностика</string>
+    <string name="diagnostics_not_supported_title">Режим диагностики отключен в прошивке или не установлено соединение с Secu-3</string>
+
+    <string name="diag_enable_bl_de">Разрешить тестирование выходов BL/DE</string>
+    <string name="diag_enable_tach_o">Разрешить тестирование выхода TACH_O</string>
+    <string name="diag_bl_de_warning">Перед тестированием выходов BL, DE убедитесь что перемычки сняты!\nВНИМАНИЕ! Значения входов показываются на выводах МК, а не на внешнем разъеме (есть отличия).</string>
+
+    <string name="choose_bluetooth_adapter">Выберите устройство Bluetooth в настройках</string>
+
+
+    <string name="units_rpm">мин-1</string>
+    <string name="units_liter">Л</string>
+    <string name="units_cc_per_min">см3/мин</string>
+    <string name="units_hertz">Гц</string>
+    <string name="units_degree">град.</string>
+    <string name="units_degree_per_stroke">°/такт</string>
+    <string name="units_sec">сек</string>
+    <string name="units_pressure_kpa">кПа</string>
+    <string name="units_volts">Вольт</string>
+    <string name="units_kpa_per_volt">кПа/В</string>
+    <string name="units_ms">мс</string>
+    <string name="units_degrees_celcius">°C</string>
+    <string name="units_percents">%</string>
+    <string name="units_percent_per_volts">%/В</string>
+    <string name="units_percent_per_second">%/сек</string>
+
+    <string-array name="params_tab_titles">
+        <item>Запуск</item>
+        <item>УОЗ</item>
+        <item>Регулятор ХХ</item>
+        <item>Функции</item>
+        <item>Температура</item>
+        <item>Отсечка топлива</item>
+        <item>Коррекция АЦП</item>
+        <item>ДПКВ</item>
+        <item>Детонация</item>
+        <item>Прочее</item>
+        <item>Управление ВЗ</item>
+        <item>Безопасность</item>
+        <item>Универсальные выходы</item>
+        <item>Впрыск</item>
+        <item>Лямбда контроль</item>
+        <item>Ускорение</item>
+        <item>Доз. газа</item>
+    </string-array>
+    <string name="maximum_step_frequency_at_init">Максимальная частота при иниц.</string>
+    <string name="units_degrees_cs">°КВ</string>
+    <string name="units_coef">коэф.</string>
+    <string name="units_num">чис.</string>
+    <string name="units_str">такт</string>
+    <string name="sensors_tab_title">Датчики</string>
+    <string name="enable_bluetooth_to_start_work">Для начала работы включите Bluetooth и нажмите \"Повторить попытку\"</string>
+    <string name="try_again">Повторить попытку</string>
+    <string name="turn_on_bluetooth">Включить bluetooth</string>
+    <string name="secu_device_is_not_selected">Bluetooth устройство не выбрано</string>
+    <string name="select_bluetooth_device">Выбрать Bluetooth устройство</string>
+    <string name="bluetooth_device_not_valid">Выбраное ранее устройство Bluetooth недействительно</string>
+    <string name="open_settings">Перейти в Настройки</string>
+    <string name="about_copyright_3">Copyright © 2023 Артём Пинчук</string>
+
+</resources>
